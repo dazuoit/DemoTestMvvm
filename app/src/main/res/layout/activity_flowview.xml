@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.zuo.xmvvm.flow.FlowViewViewModel" />
+
+
+    </data>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zuo.xmvvm.flow.FlowViewLayout
+                addView="@{viewModel.addView}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试测试测试测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="测试测试"
+                    android:background="@drawable/shape_bg_flowview"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"/>
+
+
+
+            </com.zuo.xmvvm.flow.FlowViewLayout>
+
+        </ScrollView>
+
+</layout>
